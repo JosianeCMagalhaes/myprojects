@@ -1,0 +1,79 @@
+<html>
+<head>
+	<title>Ficha em JAVASCRIPT</title>
+</head>
+<body>
+	<form method="POST" action="fichaJS.html" onsubmit="return enviarDados();">
+		<table>
+			<tr>
+				<td>Nome: </td>
+				<td><input type="text" name="nome" id="nome"></td>
+			</tr>
+			<tr>
+				<td>E-mail: </td>
+				<td><input type="text" name="email" id="email"></td>
+			</tr>
+			<tr>
+				<td>CPF ou CNPJ: </td>
+				<td><input type="text" name="cpf_cnpj" id="cpf_cnpj"></td>
+			</tr>
+			<tr>
+				<td>Telefone: </td>
+				<td><input type="text" name="telefone" id="telefone"></td>
+			</tr>
+			<tr>
+				<td>CEP: </td>
+				<td><input type="text" name="cep" id="cep"></td>
+			</tr>
+			<tr>
+				<td>Logradouro: </td>
+				<td><input type="text" name="logradouro" id="logradouro"></td>
+			</tr>
+			<tr>
+				<td>Número: </td>
+				<td><input type="text" name="número" id="número"></td>
+			</tr>
+			<tr>
+				<td>Bairro: </td>
+				<td><input type="text" name="bairro" id="bairro"></td>
+			</tr>
+			<tr>
+				<td>Cidade: </td>
+				<td><input type="text" name="cidade" id="cidade"></td>
+			</tr>
+			<tr>
+				<td>Estado: </td>
+				<td><input type="text" name="estado" id="estado"></td>
+			</tr>
+				<td><input type="submit" value="Enviar Dados"></td>
+		</table>
+	</form>
+	
+	<script>
+		function enviarDados(){
+			var nome = document.getElementById("nome").value;
+				alert(nome);
+			var email = document.getElementById("email").value;
+				alert(email);
+			var cpf_cnpj = document.getElementById("cpf_cnpj").value;
+				alert(cpf_cnpj);
+			var telefone = document.getElementById("telefone").value;
+				alert(telefone);
+			var cep = document.getElementById("cep").value;
+				alert(cep);
+			var logradouro = document.getElementById("logradouro").value;
+				alert(logradouro);
+			var número = document.getElementById("número").value;
+				alert(número);	
+			var bairro = document.getElementById("bairro").value;
+				alert(bairro);	
+			var cidade = document.getElementById("cidade").value;
+				alert(cidade);
+			var estado = document.getElementById("estado").value;
+				alert(estado);
+
+				
+			}
+	</script>
+</body>
+</html>
